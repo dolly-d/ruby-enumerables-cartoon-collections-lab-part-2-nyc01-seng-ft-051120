@@ -25,7 +25,7 @@ def long_planeteer_calls(planeteer_calls)
     if calls > 4
       return true 
     end 
-    
+    i += 1 
   
   end
 end
