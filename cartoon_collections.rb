@@ -22,7 +22,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   i = 0 
   while i < long_planeteer_calls do
-    if 
+    if calls > 4
   
   end
 end
