@@ -22,7 +22,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   i = 0 
   while i < long_planeteer_calls.length do
-    if long_planeteer_calls.any? { >= 4
+    if long_planeteer_calls.any? {|calls| >= 4
       return true 
     end 
     i += 1 
